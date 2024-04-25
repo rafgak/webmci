@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCI STORE HESTUTIK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MCI STORE HESTUTIK</h1>
+    </header>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="poster.jpg" class="fullscreen-bg__video">
+            <source src="bumi.mp4" type="video/mp4">
+        </video>        
+    </div>
+
+    <div class="content">
+    <div class="container" id="product-container">
+        <!-- Products will be displayed here -->
+    </div>
+    
+
+    <button onclick="toggleCart()">
+        <img src="cart.png" alt="Keranjang Belanja">
+    </button>
+    <div class="cart" id="cart">
+        <h2>Keranjang Belanja</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produk</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Cart items will be displayed here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total Harga: <span id="total-price">Rp 0</span></td>
+                </tr>
+            </tfoot>
+        </table>
+        <button onclick="checkoutViaWhatsApp()">Checkout via WhatsApp</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
