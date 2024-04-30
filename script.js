@@ -14,7 +14,7 @@ const products = [
     { name: 'Kaos Kaki Panjang', image: 'kaos.jpg', price: 1000000, description: 'Premium Long Socks hadir dengan ukuran yang lebih panjang, menambah kenyamanan pada saat digunakan. bergaya dan cocok di gunakan dengan outfit apa saja' },
     { name: 'Myviber', image: 'my.jpg', price: 350000, description: 'Myviber minuman serbuk rasa kiwi yang berfungsi untuk detoks dan meningkatkan fungsi pencernaan usus Anda. Jadi, Anda bisa mengontrol berat badan tanpa mengkhawatirkan kesehatan Anda. Lebih Ramping, Lebih Sehat, MyViber!' },
     { name: 'Pendant Captain America', image: 'capt1.jpg', price: 1800000, description: 'Pendant terbaru Kolaborasi MCI dengan brand Dunia Marvel Comics, Pendant Captain America Series. mengusung tema karakter hero favorit dari Marvel Comic dengan design yang iconik yang tebal. dengan motif Captain America Shield yang kental akan hero Marvel ini membuatnya menjadi salah satu Best Selling pendant dari MCI.' },
-
+    { name: 'ESENSE NEW SIZE 20ML', image: 'ess.jpg', price: 500000, description: 'New Product!! Esense dari MCI adalah essential oil yang dihasilkan dari berbagai bagian dari tumbuhan seperti batang, daun, bunga, buah, biji, kulit, dan sebagainya. Esense dari MCI dengan kualitas terbaik,yang dapat digunakan sebagai parfum, kosmetik, antibiotik, antioksidan, imunostimulan, mengurangi stress, dan terapi untuk berbagai penyakit ringan.' },
 ];
 
 let cartItems = []; // Menyimpan produk yang ditambahkan ke keranjang
