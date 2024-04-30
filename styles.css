@@ -88,12 +88,13 @@ p {
     flex-wrap: wrap;
     justify-content: center; /* Mengatur kartu berada di tengah container */
     gap: 10px; /* Tambahkan jarak antara kartu */
-    padding: 40px;
+
+    
 }
 
 
 .card {
-    width: 250px;
+    width: 100vh;
     border: 1px solid #ffffff;
     border-radius:10px;
     color: #000000; /* Mengatur warna teks menjadi hitam */
@@ -101,8 +102,9 @@ p {
     box-shadow: 0 0 1px rgba(255, 0, 0, 0.2);
     overflow: hidden;
     max-width: 100%; /* Menetapkan lebar maksimum kartu */
-    margin: 50px; /* Tambahkan margin di sekitar kartu */
-    
+    margin: 20px; /* Tambahkan margin di sekitar kartu */
+    padding: 10px;
+
 }
 
 .card img {
